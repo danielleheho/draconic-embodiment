@@ -9,14 +9,29 @@
     }
   ],
    "version": "0.8",
-   "minimumCoreVersion": "12",
-   "compatibleCoreVersion":"12",
-   "download": "https://drive.google.com/file/d/1nW-aSE5WUo8SFslC9dQoRivvqtvEqwga/view?usp=drive_link",
-   "manifest": "",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+                "compatibility": {
+                    "minimum": "5.14"
+                }
+            }
+        ]
+    },
+   "download": "https://github.com/danielleheho/draconic-embodiment/releases/download/latest/module.zip",
+   "manifest": "https://github.com/danielleheho/draconic-embodiment/releases/download/latest/module.json",
    "packs": [
     {
       "name": "draconic-embodiment",
       "label": "Draconic Embodiment",
+      "system": "pf2e"
       "path": "packs/draconic-embodiment",
       "entity": "Item",
       "ownership": {
