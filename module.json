@@ -15,7 +15,7 @@
     }
   ],
    "download": "https://github.com/danielleheho/draconic-embodiment/releases/download/latest/module.zip",
-   "manifest": "https://github.com/danielleheho/draconic-embodiment/releases/download/latest/module.json",
+   "manifest": "https://raw.githubusercontent.com/danielleheho/draconic-embodiment/refs/heads/main/module.json",
    "packs": [
     {
       "name": "draconic-embodiment",
