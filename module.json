@@ -15,11 +15,14 @@
    "manifest": "",
    "packs": [
     {
-      "name": "maps",
-      "label": "Toastykitten - Velkynvelve",
-      "path": "packs/scenes.db",
-      "entity": "Scene",
-      "module": "velkynvelve"
+      "name": "draconic-embodiment",
+      "label": "Draconic Embodiment",
+      "path": "packs/draconic-embodiment",
+      "entity": "Item",
+      "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
     }
   ]
 
