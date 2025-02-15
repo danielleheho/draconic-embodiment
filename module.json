@@ -42,15 +42,6 @@
       }
     }
   ],
-  "packFolders": [
-    {
-      "name": "Draconic Embodiment",
-      "sorting": "m",
-      "packs": [
-        "draconic-embodiment",
-      ]
-    }
-  ],
   "relationships": {
     "systems": [
       {
