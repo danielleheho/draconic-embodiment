@@ -1,7 +1,7 @@
 {
   "id": "draconic-embodiment",
   "title": "Draconic Embodiment",
-  "version": "0.8",
+  "version": "0.9",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -15,12 +15,12 @@
     }
   ],
    "download": "https://github.com/danielleheho/draconic-embodiment/releases/download/latest/module.zip",
-   "manifest": "https://raw.githubusercontent.com/danielleheho/draconic-embodiment/refs/heads/main/module.json",
+   "manifest": "https://github.com/danielleheho/draconic-embodiment/releases/download/latest/module.json",
    "packs": [
     {
       "name": "draconic-embodiment",
       "label": "Draconic Embodiment",
-      "system": "pf2e"
+      "system": "pf2e",
       "path": "packs/draconic-embodiment",
       "entity": "Item",
       "ownership": {
@@ -40,6 +40,15 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Draconic Embodiment",
+      "sorting": "m",
+      "packs": [
+        "draconic-embodiment",
+      ]
     }
   ],
   "relationships": {
