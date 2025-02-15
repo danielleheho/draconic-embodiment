@@ -1,7 +1,7 @@
 {
   "id": "draconic-embodiment",
   "title": "Draconic Embodiment",
-  "version": "0.91",
+  "version": "0.9.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
